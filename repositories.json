@@ -1,0 +1,6 @@
+[
+    {
+      "id": "ArmoryDeploymentPluginRepo",
+      "url": "https://raw.githubusercontent.com/armory-plugins/armory-deployment-plugin-releases/master/plugins.json"
+    }
+]
