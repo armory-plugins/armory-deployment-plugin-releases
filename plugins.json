@@ -1,7 +1,7 @@
 [
     {
       "id": "Armory.DeploymentPlugin",
-      "description": "A plugin for deploying the Deployment Plugin (K8s Progressive)",
+      "description": "A plugin for deploying the Deployment Plugin",
       "provider": "TODO",
       "releases": []
     }
