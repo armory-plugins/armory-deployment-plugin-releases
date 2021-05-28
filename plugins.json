@@ -4,5 +4,20 @@
       "description": "A plugin for deploying the Deployment Plugin",
       "provider": "TODO",
       "releases": []
+    },
+    {
+      "id": "Armory.Deployments",
+      "description": "This plugin adds new stages to Spinnaker to enable new cloud deployment UXs with Armorys Deployments API..",
+      "provider": "https://github.com/armory-plugin-releases",
+      "releases": [
+        {
+          "version": "0.4.0",
+          "date": "2021-05-28T18:24:52.689602Z",
+          "requires": "deck>=0.0.0",
+          "sha512sum": "720555df4b3fdc329618c2ecb756ecbc2149f5453b00df56f8790276e371490bf80ec0d2a40aca5c3ae81817e80b8a5a1a9b75d173d4850f60fefb829f8d86e5",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.4.0/deployments-v0.4.0.zip"
+        }
+      ]
     }
   ]
