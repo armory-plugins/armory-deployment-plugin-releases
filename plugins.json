@@ -1,11 +1,5 @@
 [
     {
-      "id": "Armory.DeploymentPlugin",
-      "description": "A plugin for deploying the Deployment Plugin",
-      "provider": "TODO",
-      "releases": []
-    },
-    {
       "id": "Armory.Deployments",
       "description": "This plugin adds new stages to Spinnaker to enable new cloud deployment UXs with Armorys Deployments API..",
       "provider": "https://github.com/armory-plugin-releases",
