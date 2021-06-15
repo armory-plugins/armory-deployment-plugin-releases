@@ -5,6 +5,14 @@
       "provider": "https://github.com/armory-plugin-releases",
       "releases": [
         {
+          "version": "0.7.8",
+          "date": "2021-06-15T16:04:40.924061Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "85561fcc25a08a63e7eee262553b54fc07e093954ad893fb0c3974d3a1a7e4ef91de1f75a56d26a26f4dd435fa1ce16e84dc37cd16786485b9291aeb39f15b37",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.7.8/deployments-v0.7.8.zip"
+        },
+        {
           "version": "0.7.0",
           "date": "2021-06-14T21:39:26.121058Z",
           "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
