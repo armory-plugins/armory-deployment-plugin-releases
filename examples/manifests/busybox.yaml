@@ -1,0 +1,37 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: demo-app
+spec:
+  replicas: 8
+  selector:
+    matchLabels:
+      app: demo-app
+  template:
+    metadata:
+      labels:
+        app: demo-app
+    spec:
+      containers:
+        - env:
+            - name: TEST_ID
+              value: '${(new java.util.UUID(0,0)).randomUUID()}'
+            - name: TEST_CURRENT_TIME
+              value: >-
+                ${new java.text.SimpleDateFormat("yyyy-MMM-dd,
+                hh:mm:ss").format(new java.util.Date())}
+            - name: TEST_GET_STAGE_TYPE
+              value: '${#currentStage()[''type'']}'
+          image: 'nginx:1.14.1'
+          name: demo-app
+          ports:
+            - containerPort: 80
+              name: http
+              protocol: TCP
+      initContainers:
+        - command:
+            - sh
+            - '-c'
+            - sleep 10
+          image: 'busybox:stable'
+          name: sleep
