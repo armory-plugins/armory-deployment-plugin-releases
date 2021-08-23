@@ -7,7 +7,7 @@ on:
 jobs:
   build:
     name: Add Release To Repo
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
     steps:
       - name: create release
         id: create_release
@@ -53,3 +53,22 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Trigger Spinnaker pipeline
+        env:
+          ARMORY_CLOUD_SPINNAKER_CLIENT_CERTIFICATE: ${{ secrets.ARMORY_CLOUD_SPINNAKER_CLIENT_CERTIFICATE }}
+          ARMORY_CLOUD_SPINNAKER_CLIENT_CERTIFICATE_PASSWORD: ${{ secrets.ARMORY_CLOUD_SPINNAKER_CLIENT_CERTIFICATE_PASSWORD }}
+          ARMORY_CLOUD_SPINNAKER_CLIENT_PRIVATE_KEY: ${{ secrets.ARMORY_CLOUD_SPINNAKER_CLIENT_PRIVATE_KEY }}
+        run: |
+          sleep 60
+          export VERSION_TO_USE=$(echo "${{ github.event.client_payload.version }}" | sed 's/v\(.*\)/\1/')
+          echo "$ARMORY_CLOUD_SPINNAKER_CLIENT_CERTIFICATE" | base64 --decode > ${HOME}/client.crt
+          echo "$ARMORY_CLOUD_SPINNAKER_CLIENT_PRIVATE_KEY" | base64 --decode > ${HOME}/client.key
+          curl \
+            -X POST \
+            -H "Content-Type: application/json" \
+            -d "{\"parameters\":{\"deploymentPluginVersion\":\"${VERSION_TO_USE}\"}}" \
+            --max-time 5 \
+            --insecure \
+            --cert ${HOME}/client.crt:"$ARMORY_CLOUD_SPINNAKER_CLIENT_CERTIFICATE_PASSWORD" \
+            --key ${HOME}/client.key \
+            https://spinnaker-api.cloud.armory.io:8443/api/v1/webhooks/webhook/deploymentsplugin          

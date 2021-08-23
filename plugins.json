@@ -5,6 +5,558 @@
       "provider": "https://github.com/armory-plugin-releases",
       "releases": [
         {
+          "version": "0.18.2",
+          "date": "2021-08-13T16:26:05.585834Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "3d8bb0c6cba86319daff4c13e14e07ff1b44befdfe4222080ce176058468ec0a68c5c3c622bb91026e97eb49be5b10040ada0db697322394825b6913522b2799",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.18.2/deployments-v0.18.2.zip"
+        },
+        {
+          "version": "0.18.1",
+          "date": "2021-08-12T23:34:04.694024Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "33934a00fc70ba2ea1196a16525876f52bad1d2a7e81a06b4a324a5f217e2216fa6be94563bc9e4e25de3aa19a6635e125f90d0c59db3650ab9de47b041be293",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.18.1/deployments-v0.18.1.zip"
+        },
+        {
+          "version": "0.18.0",
+          "date": "2021-08-10T23:58:02.545629Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "5d486dfa592f25ffe28dff0384f9ad62f5d32e9ca0ca14451babdd6729fe6bed15a6685932b5c96c19ffa43857a504b2704514be135a91e01f8e4ecf33521281",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.18.0/deployments-v0.18.0.zip"
+        },
+        {
+          "version": "0.17.3",
+          "date": "2021-08-10T23:43:09.229815Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "5004ba1fc4a93325eeb196daa48c11d0d1e4a343f99f8a3b8d5025b8c02f8cc8a89510f0c8223a0eba83a82ef6bd1012b13ead99ac0a63d348efd8e003711a0f",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.17.3/deployments-v0.17.3.zip"
+        },
+        {
+          "version": "0.17.2",
+          "date": "2021-08-10T23:27:32.183069Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "b1839ae8ac68566bff7db05a0aa1a5d69bc76c91fc7c5ba7f764def7339938f3a3c2c3e43d77346c57777a7f64a317d595e0d38387ba3af71d45f7aa37a7031d",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.17.2/deployments-v0.17.2.zip"
+        },
+        {
+          "version": "0.17.1",
+          "date": "2021-07-29T00:18:18.859258Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "c71942ea77c49c0b8987b603d5c8b4b8c1491cb94107f093e7ea8ac42d948bb94725915b631d74671b5b43dbdaa088a70b94fa798c9be6bf306fbb670f0ae9d8",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.17.1/deployments-v0.17.1.zip"
+        },
+        {
+          "version": "0.17.0",
+          "date": "2021-07-28T21:33:23.884697Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "617a58ab27fc1ef5a40f701e250b8762143152a5a330ff945a44f4bc3562e8d7299cdc415d8448886e357ae2ca864e25c27527a2f0f960a00f9b4b01e902ca91",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.17.0/deployments-v0.17.0.zip"
+        },
+        {
+          "version": "0.16.8",
+          "date": "2021-07-23T22:10:26.102154Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "5b6df6f47d5624e6232b87c843c0eb1794e91d42060ce4c1fa47c4b9075ded245dadef30eb5048997fe472b1041d3a4d47ca5b828dfe1ad4959f8ab212ec2939",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.16.8/deployments-v0.16.8.zip"
+        },
+        {
+          "version": "0.16.7",
+          "date": "2021-07-23T21:50:39.306239Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "3ada1439c2238dd3326591dbf9165e3adfeb7cd2b0c26f4d6d72ecc9c813c89772541a9a2c53b2a38eb0e3b679a82a8032a514b9f68da3d2067d1c754f54b6c7",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.16.7/deployments-v0.16.7.zip"
+        },
+        {
+          "version": "0.16.6",
+          "date": "2021-07-23T20:51:05.915260Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "3b105185a40f08538d1c14d5e228887bb67abfd8827a9f3cb0401fee4bb5a494c49427b98302ce53f4633be53723942fbd9b9f26a648630048a8eb9f158b166c",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.16.6/deployments-v0.16.6.zip"
+        },
+        {
+          "version": "0.16.5",
+          "date": "2021-07-21T18:25:53.909583Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "827b164b9f880e4194fbd21f9e5912f88da4c3682aacf76fd2d6649b9921a2743a007b27166e1b0fc69b3ba68baf259367771197456bde122eba315e78a654f2",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.16.5/deployments-v0.16.5.zip"
+        },
+        {
+          "version": "0.16.4",
+          "date": "2021-07-21T16:44:57.504832Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "cefa72f8efc4027b5bf6ab98d624306d90de66d8a2b82273e851910d0444b721cb8a49ea6f3d84496d4d3bc03d25a979482383be18afc573e6d21ef44a9f647c",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.16.4/deployments-v0.16.4.zip"
+        },
+        {
+          "version": "0.16.3",
+          "date": "2021-07-20T17:46:24.219854Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "20c77a483997fe9d31bf1f5dd743a06f297618faff18cfc9e43c9c175e2298c5d0a58227414404c0e47d055f2b6bd509f8f7cc9f84b7570939005330939286e1",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.16.3/deployments-v0.16.3.zip"
+        },
+        {
+          "version": "0.16.2",
+          "date": "2021-07-20T17:27:08.662855Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "d7a52a68089290eb56eecba5b6a0792498477933eaf83018afd126b90e5b71d95bdbde25fefea6c3560f6b661421824787a31205ae1cff01b7b3f80b284b57e7",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.16.2/deployments-v0.16.2.zip"
+        },
+        {
+          "version": "0.16.0",
+          "date": "2021-07-20T17:13:26.778483Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "9d7d19c1ea8e76b43ba3e0d4de67e2eaa2b90e1ecd35591635616450b0814102d7f6ac0011c58a8dfc429bea8e6672c7cf0c38534fe3f7500d52a2a234ec7173",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.16.0/deployments-v0.16.0.zip"
+        },
+        {
+          "version": "0.15.3",
+          "date": "2021-07-17T03:07:16.429653Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "dc758c5f664968d4e345f56558739bc0b3becf78950aa5da78cde0b3c533eaca6b68bf02d0dbef4800ad12ab8430c249759d45f886a4a58fed76a3fac07d62a7",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.15.3/deployments-v0.15.3.zip"
+        },
+        {
+          "version": "0.15.2",
+          "date": "2021-07-16T22:40:45.496523Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "b34cd9c1ef126344ecff8e93e57d38ccb206bee33b86d1b73d89e1cb8ae909143c54853d291efd322339bd48b61b230cee6dfa37e4d849a0e8ddf99c4dd379f8",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.15.2/deployments-v0.15.2.zip"
+        },
+        {
+          "version": "0.15.1",
+          "date": "2021-07-16T22:16:03.556521Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "eaec5462c2570070e2f44d92e6c260156e2b6ce73d6d4f2c0c3e7192951be56ac69b691f6acf695fe732d88e86671f3129a166ee0479937f3904faa43931e79f",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.15.1/deployments-v0.15.1.zip"
+        },
+        {
+          "version": "0.14.1",
+          "date": "2021-07-16T21:04:49.454311Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "7d3d560bb62bb8e685473c02611589d5c5929920bd97384154faf8d155bbeb0f3e2cc87ee2974fdfeaa201f550972bb9bc5ff4fe5c777c00ad527f933d9025af",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.14.1/deployments-v0.14.1.zip"
+        },
+        {
+          "version": "0.14.0",
+          "date": "2021-07-16T19:15:39.774930Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "b0c4b1ef9499115d36ea6722a3d5ea547030dc727d13f42f383919fcdad2ab69e15ab3b8c534703a9650045fd367339ced809c9693e135894251e58a7e58b3cf",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.14.0/deployments-v0.14.0.zip"
+        },
+        {
+          "version": "0.13.4",
+          "date": "2021-07-16T05:30:32.854428Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "ed0d69c4a5da22e17309696e811b1afaab6b47d5a6d1b8167a58bc17a00b61af54e70e70f93326c74c397298477ba72dca38f14f671f8653c9b7b142b667fa93",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.13.4/deployments-v0.13.4.zip"
+        },
+        {
+          "version": "0.13.3",
+          "date": "2021-07-16T04:22:34.694814Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "4bc84e4cb674380aecd5d69128e14df4f711408acbfccda24b35ebf884864eb2fcc1ecad54d8c6336d83a4d90a3ef0582d7b98c53e58a119673d4e7a235c4009",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.13.3/deployments-v0.13.3.zip"
+        },
+        {
+          "version": "0.13.2",
+          "date": "2021-07-16T04:02:41.002142Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "4b5b40ba3534a682c540155b50e134e65e3c5854daa079dfafd632da75ad6e5c91dfca07b92ee90361c68b66574feb219263c1afb2e2c91895034d604e754900",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.13.2/deployments-v0.13.2.zip"
+        },
+        {
+          "version": "0.13.1",
+          "date": "2021-07-16T03:50:37.274265Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "c7ba2399f68fe4376c8ea643059a2c65b447a44c8f24285367db74f3c04da7fd58d390433d9541d99e2b39bc17b95bda9061581ad22f1f8a3abdcea1d093e3f1",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.13.1/deployments-v0.13.1.zip"
+        },
+        {
+          "version": "0.13.0",
+          "date": "2021-07-16T01:16:05.244576Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "bc61cc06ce74490eaa9451822b45d203745039fafdc72b0ac6c32a928c70078192432a3ee5744a389fc948623524978750bcff53097052d1f6c2e90b55223263",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.13.0/deployments-v0.13.0.zip"
+        },
+        {
+          "version": "0.12.9",
+          "date": "2021-07-15T21:20:57.314053Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "8d0aa95141981d9dbb0d3f7c24ca0dd6b6b4ded45aabe62a7847e541c7f1c469e02989ee9315231c89e35c5fc7336f313d7378a837a456ce5c20bb1930c9f53c",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.12.9/deployments-v0.12.9.zip"
+        },
+        {
+          "version": "0.12.8",
+          "date": "2021-07-15T18:58:47.736421Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "8934a104df26d4d1721c62f435bdbf9b77b011540ae8dbad832dd3c71da741e986d47351b6e28d05ec3cfd2a2d68399a2d247ce20475199fe3f507286fec14ff",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.12.8/deployments-v0.12.8.zip"
+        },
+        {
+          "version": "0.12.5",
+          "date": "2021-07-14T22:14:01.913455Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "8600e5c279375abfc55f9f9c073317322e7e7572172e29da5fe8363d3b7d373e17f3a6258fd57e22e1649935c95504ebdd8f74f3ae0c1b4501b74e1fdf7d1465",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.12.5/deployments-v0.12.5.zip"
+        },
+        {
+          "version": "0.12.2",
+          "date": "2021-07-13T22:30:07.963920Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "0884df755a4c12cc3b12b0b4abc9b1f3e7bd62a9ca5aecccbe612a5c2704edc0f6787f1e783f63cfa7bcf075967c7b64366a20e4e607a206a2de7b91435d6447",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.12.2/deployments-v0.12.2.zip"
+        },
+        {
+          "version": "0.12.1",
+          "date": "2021-07-13T22:24:30.388560Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "4b2d13f11bc5b24a0a2873fbd8c044ed97e748641de53697e8a76822df85267679886eff67bb8a46068cf7462e804ef943981d58ceb2f15d7a90f977580228a8",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.12.1/deployments-v0.12.1.zip"
+        },
+        {
+          "version": "0.12.0",
+          "date": "2021-07-13T21:40:04.896005Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "dd3804da25f0a83187d63c8c39fec404e9e1b78b4a7f287cc24c0b90d23f5b833602f3f6c6cbeec22e6ef1db91d4ba5f8004e12eb6727b6c47450fcd4944cf32",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.12.0/deployments-v0.12.0.zip"
+        },
+        {
+          "version": "0.11.9",
+          "date": "2021-07-13T20:03:45.529616Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "c2f71272825a95dd1bdf71b56e089c000d8aec2c8c0e9c3b768e78602cc3803a0fe6b01c9aa0a0d7c6ae02e1dfd0e4f1acab94ced2f24f886ebc19a153a73d51",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.11.9/deployments-v0.11.9.zip"
+        },
+        {
+          "version": "0.11.8",
+          "date": "2021-07-13T16:34:58.306484Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "c7400004502d2938f4359a2a8825b97f40931fd09ee80187f186a89492a82e86ed8e19d1e20a9590f059322301f388439527ca176b1bb65129a7d4c53db13d38",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.11.8/deployments-v0.11.8.zip"
+        },
+        {
+          "version": "0.11.7",
+          "date": "2021-07-01T15:52:58.303961Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "ddd54439efec8f018d550160082545431fa55751bee7aa3ef07055f4e9a6e6e561bd2303e63d0009f20cde112be34d5a7f4775429134f39b2d4aa33b3a96771c",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.11.7/deployments-v0.11.7.zip"
+        },
+        {
+          "version": "0.11.6",
+          "date": "2021-06-29T18:26:29.469174Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "7ca199277ec7c68532a6ec464fc2b1fbacc9d105d592b229f7db25d9125c79ffe589f3668d7ecde9b597fe45981f531929caa0be4f793bc8e1fadd875ce158fc",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.11.6/deployments-v0.11.6.zip"
+        },
+        {
+          "version": "0.11.5",
+          "date": "2021-06-25T20:07:44.366160Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "2600b3dbf526c7e5dac29d37dd1a9993aa1ede4e4ee37861b30fcaad8ab6b42988f48856f821aefbfc81c1a1c3a83c1a3f99023b6fd0a60b1bcd4d7b30f5b17a",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.11.5/deployments-v0.11.5.zip"
+        },
+        {
+          "version": "0.11.4",
+          "date": "2021-06-25T18:35:09.296874Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "46d59fee178801b94b7e48799a34996a8421d1415f82a761663e2fc8c8adfa1e8bbbdf2622dc2d13710443ea6d73020af8ff02007effbefe077de133ac1902d0",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.11.4/deployments-v0.11.4.zip"
+        },
+        {
+          "version": "0.11.3",
+          "date": "2021-06-21T02:18:59.647463Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "85d0c34a725441802a291ecb4918ea790f5a50ccdbdbc4cec2e0b5c9d8573dabd73b10efefefdd127efd2b9c56ad375d400692439255329bd9f20720794c9d8c",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.11.3/deployments-v0.11.3.zip"
+        },
+        {
+          "version": "0.11.2",
+          "date": "2021-06-21T01:56:19.641399Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "7d2e5c065b25af6ce7785cbbf3b5c36d69ef455606e2eaca3567e3c586655bb2eff6bcb479e565922a6ca768b01c4a1e1ddd547be2a0833bbfa52be8871b3055",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.11.2/deployments-v0.11.2.zip"
+        },
+        {
+          "version": "0.11.1",
+          "date": "2021-06-21T01:49:46.070219Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "17cfbf96d8cf8fb9b077e5c276173a784be34a872563d84cca8755b94d1f3cb0f58389062903b28f084d04091ddaa2d3170fe70b91a38de25bd8312605fa0dfe",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.11.1/deployments-v0.11.1.zip"
+        },
+        {
+          "version": "0.11.0",
+          "date": "2021-06-16T17:22:01.848221Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "7f605560fd1db2e14e9a829edbd6eb036ee9d11567e797d41c2d5ceafd17e3953932a298de9326b7fda9f94f502240ce1c5c64ab1bb215ce5aca14cf4fb96906",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.11.0/deployments-v0.11.0.zip"
+        },
+        {
+          "version": "0.10.7",
+          "date": "2021-06-16T14:03:25.187825Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "3d25dffcb79c6ad4c1554b9a22239c92da91afc7521ef9dbd3c0bce7b7bad7f771cdab949137f1915d07c9198136eb05ab752fbc799cebab5445d3ce835f561c",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.10.7/deployments-v0.10.7.zip"
+        },
+        {
+          "version": "0.10.6",
+          "date": "2021-06-16T10:39:47.261705Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "f0999175071db713a0b70184cb023ec905fd3687b1d6ec6af2e7618577134f1d250b5d6baa6427e8243b2909291d9466a1c7ecc126d72a40f0e12e0a1059b24c",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.10.6/deployments-v0.10.6.zip"
+        },
+        {
+          "version": "0.10.5",
+          "date": "2021-06-16T10:34:35.622369Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "69fa3403b083cc63d4eb8d259b3a60614159797235fd4ec2cea62967941b21834518030c34e818e5950302735e3901b1aec20ec51ddf56b704ad24a2d95fcf5b",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.10.5/deployments-v0.10.5.zip"
+        },
+        {
+          "version": "0.10.4",
+          "date": "2021-06-15T22:29:40.378401Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "ced35505231913c704b7c2a34cb0c48c37f9bfb71876b3c3d19139d5e7c56b16d84e61bdb62a1fe536573d46614b4d2703b29a252bb57d695b4c6a9f0f027b4d",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.10.4/deployments-v0.10.4.zip"
+        },
+        {
+          "version": "0.10.3",
+          "date": "2021-06-15T21:58:07.636899Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "7a11008bc2580f382b8ff0f588ac8aac16d1c122181bfc43b654d8fc55dd3d782a40576f2f29578bd45260e339d41469514b042b1ad90fd246028e76e354bf6e",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.10.3/deployments-v0.10.3.zip"
+        },
+        {
+          "version": "0.10.2",
+          "date": "2021-06-15T21:52:27.624621Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "70fe55c5501f2ef68a80d11d7508769de38d025e85a5b548d8985f928dfc1c6bfd786b8704d679d04b1d3d1353d8f7f8b62e1776c0041db792e0009e9d07d9bc",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.10.2/deployments-v0.10.2.zip"
+        },
+        {
+          "version": "0.10.1",
+          "date": "2021-06-15T21:42:10.536414Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "3d35acd94966c219ca173db9445ea0e8eeead5393c6e1a87e21c88bf7818bbce16c0afcd214ab1bed25a2b8581bb3d05a1e9b79275b5b09117eb9450b98a1390",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.10.1/deployments-v0.10.1.zip"
+        },
+        {
+          "version": "0.10.0",
+          "date": "2021-06-15T21:17:01.987660Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "fa5b7345577ef7eba2ff50a9175ce9a2cd294922d2f03c009379a5e8b0f1fe112b82e06287a713d72ea67c8f1ac0a50b357242528ff65d0883ad2300eecdbf8f",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.10.0/deployments-v0.10.0.zip"
+        },
+        {
+          "version": "0.9.2",
+          "date": "2021-06-15T21:15:38.167648Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "b3eda8689aba20cb260970f58a87cfea1beab3d85e8473f7213684e39e2a30e5470808a3d1023804ad08c4d8db9d7df3b7d141c17b457e800a7c7979be2414b2",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.9.2/deployments-v0.9.2.zip"
+        },
+        {
+          "version": "0.9.1",
+          "date": "2021-06-15T20:56:20.094161Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "6f08a78dd5b54cbe581e5f58bdb6e69558687e9d59b2a0c403ae0880a59ebfb49cbe3115353707f08b70d6a2ccba93a48d037536c5000b50cde2e2476726714d",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.9.1/deployments-v0.9.1.zip"
+        },
+        {
+          "version": "0.9.0",
+          "date": "2021-06-15T20:39:20.175945Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "c2dd549f42da8a62d129da879b40dbf5076df1757fbc52044930805c13e319a639236684ad4be293d2ea0b1c26d913ec5d6b5fa882fb7a42af65733e85ed2607",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.9.0/deployments-v0.9.0.zip"
+        },
+        {
+          "version": "0.8.1",
+          "date": "2021-06-15T20:09:48.549331Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "873941726a2ab5c970e1bbac62c6760abcda60f7c3a03fca84c9da9bff163077ab5312bac890d96347fe78fe33aef0778a01f938afececc94566abed3fd9e647",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.8.1/deployments-v0.8.1.zip"
+        },
+        {
+          "version": "0.8.0",
+          "date": "2021-06-15T19:08:01.089088Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "89d702c52d688fafee99a4e9f720d30e74baba49b2439e16a334cc6c33f55fe0d7890b5e64ee9a0261181b124eef44b338f83b0ac53df379d6b979cd38517138",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.8.0/deployments-v0.8.0.zip"
+        },
+        {
+          "version": "0.7.13",
+          "date": "2021-06-15T18:52:17.971506Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "9cc426786155f749ae3bd3baa3aaf4ddd93eb5c7a17713937c85c314f8ad0382a6e1562deddba32fbc6d58ebaa8efba59510c093939f717b16c4fb7f157bcee2",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.7.13/deployments-v0.7.13.zip"
+        },
+        {
+          "version": "0.7.12",
+          "date": "2021-06-15T18:41:40.801584Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "ed25a5a4f153e339f9309105821d2fa657104ac239d67f608fb0d9ff41120639b2eb452684d3c3e9874a3528d74197ca23a65f458817825664dc431e450e439a",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.7.12/deployments-v0.7.12.zip"
+        },
+        {
+          "version": "0.7.11",
+          "date": "2021-06-15T18:37:06.662829Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "aa5e7ebdd68f4d0d09c024d8a631d67fd5dc6d552de6a87d4fec206e31cf3da68705fde5bcb8d98d2787c44dc748c59e48750afaaa25888e4b2ec267c490f009",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.7.11/deployments-v0.7.11.zip"
+        },
+        {
+          "version": "0.7.10",
+          "date": "2021-06-15T18:08:08.098808Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "8ab70a858942732ed0402582e06de36d0f1795f32b08ad4773802996df0a810dc968643e886915d2c9ba41f11a742b07ca65a36c07c8f3feb042377ab151aa79",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.7.10/deployments-v0.7.10.zip"
+        },
+        {
+          "version": "0.7.9",
+          "date": "2021-06-15T16:52:49.366568Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "3de84262839f83933cc231669c20aac1ea45847817b62a5086edc4058187bdc43c1a82eec7b70e8fd1b75c70456c80dc0d2f062cb2ca6d456536a7536969b365",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.7.9/deployments-v0.7.9.zip"
+        },
+        {
+          "version": "0.7.8",
+          "date": "2021-06-15T16:04:40.924061Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "85561fcc25a08a63e7eee262553b54fc07e093954ad893fb0c3974d3a1a7e4ef91de1f75a56d26a26f4dd435fa1ce16e84dc37cd16786485b9291aeb39f15b37",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.7.8/deployments-v0.7.8.zip"
+        },
+        {
+          "version": "0.7.0",
+          "date": "2021-06-14T21:39:26.121058Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "78aa62b80068b5e82fe2a2db43364fc31a57b767659ce220d54e25e4010b676a64bc48d3cbc04a158d3d7fcca8159dd5b1cfa4d01aa7954cde57ee646ff98f22",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.7.0/deployments-v0.7.0.zip"
+        },
+        {
+          "version": "0.6.4",
+          "date": "2021-06-14T21:28:22.913269Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "24f9e1c601eeb4c5c22374d9ae2e18c668471001e602fee9c00f1fedc8ec67d53a0bb7e6a4bd8ad9451d53616ae48a5218ab0f4218bb9edffd1b2dc89bca4534",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.6.4/deployments-v0.6.4.zip"
+        },
+        {
+          "version": "0.6.3",
+          "date": "2021-06-14T21:05:40.064655Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "f65263eab73b6c8d4cfc272057d7b235a27cd3ab8cd01c2d8779b24434269df26ccd0e37fc70b831c391294957ade2999d26a68f88569e2f275ec86436117e25",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.6.3/deployments-v0.6.3.zip"
+        },
+        {
+          "version": "0.6.2",
+          "date": "2021-06-14T13:08:03.522615Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "a263f00e3cdd7d9aad43fe33a00c10a05dd9edf7e6ce39d6eb4532907a7ab68c2fd608eb9bcc427e6d8d4407522174a5d65c7483d45f9f7172e5e92f045aa940",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.6.2/deployments-v0.6.2.zip"
+        },
+        {
+          "version": "0.6.1",
+          "date": "2021-06-11T21:29:37.517431Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "78b01f94aa7aefcf15af6affe6311949cbcf70d01f8167d556a434217e484d3e9cb50b6b129d3dea2b86cf5d5252d8866979232395b8dee909f8453ceda72f5a",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.6.1/deployments-v0.6.1.zip"
+        },
+        {
+          "version": "0.5.6",
+          "date": "2021-06-11T19:34:03.837760Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "123307df44e6a0dd3601b28ab72e82c301bca16c027e3da462feca69b7adfc65bde85778c1d86add88327400430616642200c8b1959205fc2c3f1d2a90af09df",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.5.6/deployments-v0.5.6.zip"
+        },
+        {
+          "version": "0.5.5",
+          "date": "2021-06-11T19:16:42.065613Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "e0e2cb6d80134787902a69e2289f71c9420f51aa1d48c6fc72cc4f8141c9b2b6fd83729ee57ca2a8028b1db2571c715acdad0b32227132617ef6b4dfa91ae1c1",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.5.5/deployments-v0.5.5.zip"
+        },
+        {
+          "version": "0.5.4",
+          "date": "2021-06-11T18:12:52.685176Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "1950e2589eb6490d0edfa260a8e1cb8ba521b9b2bbd8dfdc5b3afb588504ef7e605acbc8613fbefdcfc5cc3084e77b14acaead70b225a1c3fac9e2607bb61d37",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.5.4/deployments-v0.5.4.zip"
+        },
+        {
+          "version": "0.5.3",
+          "date": "2021-06-11T17:33:40.230161Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "ae10f69d44dba21fcc3369ed7353d4c24e4321247047910819588261ab8e3f3085b19bbff093e0286dbc6bf9affa084ae9fa8f6f85d6e465f413806ec0f558d4",
+          "state": "",
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.5.3/deployments-v0.5.3.zip"
+        },
+        {
           "version": "0.5.1",
           "date": "2021-06-10T22:16:39.481478Z",
           "requires": "orca>=0.0.0,deck>=0.0.0",
