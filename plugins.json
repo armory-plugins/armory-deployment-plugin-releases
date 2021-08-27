@@ -5,6 +5,14 @@
       "provider": "https://github.com/armory-plugin-releases",
       "releases": [
         {
+          "version": "0.21.4",
+          "date": "2021-08-27T05:38:03.506612Z",
+          "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
+          "sha512sum": "ddb054bb4f349864e056f17d7dfd35dfe1bbeb63b347197f48925b81b0278f6e45795d079e92f9c80f7ba41ae2be93412322edb825547e060982a23f0bb2b463",
+          "state": "",
+          "url": "https://github.com/armory-io/armory-deployment-plugin-releases/releases/download/v0.21.4/spinnaker-deployments-plugin-v0.21.4.zip"
+        },
+        {
           "version": "0.21.0",
           "date": "2021-08-27T02:46:22.028280Z",
           "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
