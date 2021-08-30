@@ -10,7 +10,7 @@
           "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
           "sha512sum": "3b57cc4e8879dc7da784a25b14e528209494c96116efd618022b97dc9975c401c09e531ff86d73d242072a11293e11b52acfae2c570ddc0f8a5d0da652cc673d",
           "state": "",
-          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.21.8/spinnaker-deployments-plugin-v0.21.8.zip"
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.21.8/deployments-v0.21.8.zip"
         },
         {
           "version": "0.21.6",
@@ -18,7 +18,7 @@
           "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
           "sha512sum": "1c29605a25fb9ab3cb22b9d47804b72154837605122136993b51605a78f285c5eb3f43f7b95383053febdff6ae147c0bcc14ca294518af5b202a6e21f1329469",
           "state": "",
-          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.21.6/spinnaker-deployments-plugin-v0.21.6.zip"
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.21.6/deployments-v0.21.6.zip"
         },
         {
           "version": "0.21.4",
@@ -26,7 +26,7 @@
           "requires": "gate>=0.0.0,orca>=0.0.0,deck>=0.0.0",
           "sha512sum": "ddb054bb4f349864e056f17d7dfd35dfe1bbeb63b347197f48925b81b0278f6e45795d079e92f9c80f7ba41ae2be93412322edb825547e060982a23f0bb2b463",
           "state": "",
-          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.21.4/spinnaker-deployments-plugin-v0.21.4.zip"
+          "url": "https://github.com/armory-plugins/armory-deployment-plugin-releases/releases/download/v0.21.4/deployments-v0.21.4.zip"
         },
         {
           "version": "0.21.0",
